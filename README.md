@@ -4,7 +4,7 @@
 
 ## Installation guide 📜
 #### 1️⃣ Install git & nodejs 
-#### 2️⃣ Run |  ```git clone https://github.com/itshahrad/altv-ts-react altv-ts-react``` | in a directory
+#### 2️⃣ Run |  ```git clone https://github.com/ITSHahrad/altv-ts-react.git altv-ts-react``` | in a directory
 #### 3️⃣ Open `Terminal / CMD` in installed directory
 #### 4️⃣ Run ```npm install```
 #### 5️⃣ Open `Terminal / CMD` in ```/webview```
