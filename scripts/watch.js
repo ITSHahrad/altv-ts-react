@@ -13,7 +13,10 @@ function compiler() {
     console.log(`Starting Compile`)
     spawnSync('node', ['./scripts/compiler.js'], { stdio: 'inherit' })
     spawnSync('node', ['./scripts/copy.js'], { stdio: 'inherit' })
-    console.log(`Compile Complete`)
+    spawnSync(`npx${altvProcessName ? '.cmd' : ''}`, ['vite', 'build', './webview'], {
+        stdio: 'inherit',
+    });
+    console.log(`Compile Complete`);
 }
 
 async function reboot() {
